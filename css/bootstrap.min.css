@@ -3133,25 +3133,25 @@ fieldset:disabled .btn {
     opacity: .65
 }
 
-.btn-primary {
+/* .btn-primary {
     color: #000;
     background-color: #06321f;
     border-color: #06321f
-}
+} */
 
-.btn-primary:hover {
+/* .btn-primary:hover {
     color: #000;
     background-color: #38c4df;
     border-color: #2cc0dd
-}
+} */
 
-.btn-check:focus+.btn-primary,
+/* .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
     background-color: #38c4df;
     border-color: #2cc0dd;
     box-shadow: 0 0 0 .25rem rgba(18, 157, 184, .5)
-}
+} */
 
 .btn-check:checked+.btn-primary,
 .btn-check:active+.btn-primary,
@@ -7363,9 +7363,9 @@ fieldset:disabled .btn {
     border-left: 0 !important
 }
 
-.border-primary {
+/* .border-primary {
     border-color: #06321f !important
-}
+} */
 
 .border-secondary {
     border-color: #efa286 !important
