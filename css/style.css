@@ -7,7 +7,13 @@
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
-
+.top-head a{
+    color:#06321f;
+}
+.top-head .text-lg-end a{
+    background-color: #06321f;
+    color:var(--bs-white);
+}
 #spinner.show {
     transition: opacity .5s ease-out, visibility 0s linear 0s;
     visibility: visible;
@@ -26,6 +32,8 @@
     justify-content: center;
     transition: 0.5s;
     z-index: 99;
+    color: var(--bs-white);
+    box-shadow: 2px 2px 10px var(--bs-light-yellow) !important;
 }
 
 /*** Button Start ***/
@@ -209,7 +217,7 @@
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    color: var(--bs-white) !important;
 }
 
 /* .navbar-light .navbar-nav .nav-link:hover,
@@ -218,17 +226,17 @@
 } */
  .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: #ff8cac !important;
+    color:#e8be45 !important;
 }
 
 
 .navbar-light .navbar-brand img {
-    max-height: 50px;
+    max-width: 100px;
     transition: .5s;
 }
 
 .sticky-top.navbar-light .navbar-brand img {
-    max-height: 45px;
+    max-width: 100px;
 }
 
 .navbar .dropdown-toggle::after {
@@ -255,7 +263,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
+    background: var(--bs-dark-green) !important;
     color: var(--bs-white);
 }
 
@@ -270,13 +278,13 @@
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
-        background: var(--bs-white);
+        background: #06321f;
     }
 
     .navbar.navbar-expand-lg .navbar-toggler {
         padding: 10px 20px;
-        border: 1px solid var(--bs-primary);
-        color: var(--bs-primary);
+        border: 1px solid var(--bs-light-yellow);
+        color: var(--bs-light-yellow);
     }
 
     .navbar-light .navbar-collapse {
@@ -288,7 +296,7 @@
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
         margin-left: 0;
-        color: var(--bs-dark) !important;
+        color: var(--bs-white) !important;
     }
 
     .navbar-light .navbar-brand img {
@@ -308,7 +316,7 @@
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: var(--bs-light) !important;
+        background: #06321f !important;
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -319,7 +327,7 @@
         bottom: -1px;
         left: 50%;
         /* background: var(--bs-primary); */
-         background: #ff8cac !important;
+         background: #e8be45 !important;
         transition: .5s;
     }
 
@@ -1161,10 +1169,11 @@
 
 /*** Footer Start ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/carousel-2.jpg);
+    background: var(--bs-dark-green);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .footer .footer-item a {
     line-height: 35px;
@@ -1185,13 +1194,14 @@
 
 /*** copyright Start ***/
 .copyright {
-    background: var(--bs-dark) !important;
+    background: var(--bs-dark-green) !important;
+    border-top: 2px solid var(--bs-light-yellow);
 }
 /*** copyright end ***/
 
 .service-btn {
   display: inline-block;
-  background-color:#14c9c5; /* professional yellow */
+  background-color:#e8be45; /* professional yellow */
   color: #fff;
   padding: 10px 20px;
   border-radius: 50px;
