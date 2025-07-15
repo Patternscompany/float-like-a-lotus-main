@@ -1477,7 +1477,7 @@ body{
 .appointment-form .form-select,
 .appointment-form textarea {
   /* background-color: #000000 !important; */
-  color: #333;
+  /* color: #333; */
   border: 1px solid #ccc;
 }
 .appointment-form .form-select{
@@ -1521,3 +1521,4 @@ body p{
 .contact-form{
     background: #06321f;
 }
+
