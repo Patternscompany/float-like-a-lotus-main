@@ -3405,8 +3405,8 @@ fieldset:disabled .btn {
 
 .btn-light {
     color: #000;
-    background-color: #faf9fb;
-    border-color: #faf9fb
+    background-color:#b98b0b;
+    border-color:black
 }
 
 .btn-light:hover {
@@ -3438,7 +3438,7 @@ fieldset:disabled .btn {
 .btn-light:active:focus,
 .btn-light.active:focus,
 .show>.btn-light.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(213, 212, 213, .5)
+    /* box-shadow: 0 0 0 .25rem rgba(213, 212, 213, .5) */
 }
 
 .btn-light:disabled,
@@ -8365,9 +8365,9 @@ fieldset:disabled .btn {
     color: #202135 !important
 }
 
-.text-white {
+/* .text-white {
     color: #fff !important
-}
+} */
 
 .text-muted {
     color: #6c757d !important

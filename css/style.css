@@ -1073,7 +1073,7 @@
 
 /*** Contact Start ***/
 .contact {
-    background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg);
+    /* background: linear-gradient(rgba(21, 185, 217, 0.9), rgba(21, 185, 217, 0.9)), url(../img/carousel-1.jpg); */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1081,19 +1081,20 @@
 }
 
 
-.contact .contact-form .btn.btn-light {
+/* .contact .contact-form .btn.btn-light {
     box-shadow: inset 0 0 0 0 var(--bs-primary);
-}
+} */
 
-.contact .contact-form .btn.btn-light:hover {
+/* .contact .contact-form .btn.btn-light:hover {
     box-shadow: inset 600px 0 0 0 var(--bs-primary) !important;
     color: var(--bs-white) !important;
-}
+} */
 
 .contact .contact-form .form-floating input,
 .contact .contact-form .form-floating textarea,
 .contact .contact-form .form-floating label {
     color: var(--bs-light);
+    /* background: #06321f; */
 }
 
 
@@ -1517,3 +1518,6 @@ body p{
 
 }
 
+.contact-form{
+    background: #06321f;
+}
